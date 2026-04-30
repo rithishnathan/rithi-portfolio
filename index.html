@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rithish VR | Personal Portfolio</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            line-height:1.6;
+            background:#f4f6f9;
+            color:#333;
+        }
+
+        header{
+            background:#007BFF;
+            color:white;
+            text-align:center;
+            padding:60px 20px;
+        }
+
+        header h1{
+            font-size:42px;
+            margin-bottom:10px;
+        }
+
+        header p{
+            margin:8px 0;
+        }
+
+        section{
+            max-width:900px;
+            margin:30px auto;
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h2{
+            color:#007BFF;
+            margin-bottom:15px;
+            border-bottom:2px solid #007BFF;
+            padding-bottom:8px;
+        }
+
+        ul{
+            padding-left:20px;
+        }
+
+        li{
+            margin:8px 0;
+        }
+
+        .info-box{
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:15px;
+        }
+
+        .card{
+            background:#f8f9fa;
+            padding:15px;
+            border-radius:8px;
+        }
+
+        .resume-btn{
+            display:inline-block;
+            margin-top:15px;
+            background:#007BFF;
+            color:white;
+            padding:12px 20px;
+            border-radius:6px;
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+        .resume-btn:hover{
+            background:#0056b3;
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            background:#333;
+            color:white;
+            margin-top:30px;
+        }
+
+        a{
+            color:#007BFF;
+            text-decoration:none;
+        }
+
+        @media(max-width:600px){
+            .info-box{
+                grid-template-columns:1fr;
+            }
+
+            header h1{
+                font-size:32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Rithish VR</h1>
+
+        <p>Software Developer from Chennai, Tamil Nadu</p>
+
+        <p>Learning Python & JavaScript | Building cool projects</p>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            Hi, I'm Rithish from Chennai, Tamil Nadu. 
+            I am passionate about programming, web development, and technology.
+            Currently learning Python, JavaScript, HTML, and CSS while building small projects 
+            to improve my skills. looking for an intern. fast learner and has some management skills.
+        </p>
+
+        <br>
+
+        <div class="info-box">
+
+            <div class="card">
+                <h3>Personal Information</h3>
+
+                <p><strong>Name:</strong> Rithish nathan</p>
+                <p><strong>City:</strong> Chennai</p>
+                <p><strong>State:</strong> Tamil Nadu</p>
+                <p><strong>Country:</strong> India</p>
+                <p><strong>Languages:</strong> English, Tamil</p>
+            </div>
+
+            <div class="card">
+                <h3>Skills</h3>
+
+                <ul>
+                    <li>Python (Basics)</li>
+                    <li>JavaScript (Basics)</li>
+                    <li>HTML & CSS</li>
+                    <li>GitHub</li>
+                    <li>Problem Solving</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+
+        <h2>Educational Qualification</h2>
+
+        <div class="card">
+            <h3>Bachelor's Degree</h3>
+
+            <p><strong>Course:</strong>  B.Tech</p>
+            <p><strong>Status:</strong> Currently Pursuing</p>
+            <p><strong>College:</strong> Jaya Engineering college</p>
+            <p><strong>Year:</strong> 2024 - 2028</p>
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="card">
+            <h3>Personal Portfolio Website</h3>
+
+            <p>
+                Created a responsive personal portfolio website using HTML and CSS 
+                and hosted it using GitHub Pages.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume">
+
+        <h2>Resume</h2>
+
+        <p>
+            Click the button below to view or download my resume.
+        </p>
+
+        <!-- CHANGE resume.pdf to your actual resume file name -->
+        <a href="resume.pdf.docx" class="resume-btn" target="_blank">
+            View Resume
+        </a>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+
+        <h2>Contact</h2>
+
+        <p>Email: 
+            <a href="mailto:rithishvr214@example.com">
+                rithishvr214@example.com
+            </a>
+        </p>
+
+        <p>
+            LinkedIn: 
+            <a href="#" target="_blank">
+                linkedin.com/in/rithishvr
+            </a>
+        </p>
+
+        <p>
+            GitHub: 
+            <a href="https://github.com/rithish-nathan" target="_blank">
+                github.com/yourusername
+            </a>
+        </p>
+
+        <p>Location: Chennai, Tamil Nadu, India</p>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Rithish VR | Built with HTML/CSS & hosted on GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
